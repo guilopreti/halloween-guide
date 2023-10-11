@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.css">
-
+    <link rel="icon" href="imgs/logo.png">
     <title>Guia do Halloween</title>
   </head>
 
@@ -42,7 +42,65 @@
         <h1>Receitas</h1>
         <img src="imgs/caldeirao.png" alt="">
       </div>
-      <p>Aprenda a fazer as mais deliciosas receitas!</p>
+      <h2>Aprenda a fazer as mais deliciosas receitas!</h2>
+
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Imagem</th>
+            <th scope="col">Descrição</th>
+            <th scope="col">Receita</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Sangria de Halloween</th>
+            <td><img src="imgs/sangria.png" alt=""></td>
+            <td>Bebida refrescante e saborosa de coloração vibrante, que muitas vezes é vermelha ou roxa escura, lembra o sangue e cria uma atmosfera misteriosa e festiva que combina perfeitamente com a vibe assombrada desta época do ano.</td>
+            <td><a href="https://cozinharoman.com/2014/10/31/sangria-halloween-2014/" target="_blank">AQUI!</a></td>
+          </tr>
+          <tr>
+            <th scope="row">Dedos de Bruxa</th>
+            <td><img src="imgs/dedoBruxa.png" alt=""></td>
+            <td>Esta deliciosa iguaria consiste em bolachas cuidadosamente moldadas para se assemelharem a dedos de bruxas, criando uma aparência assustadora e intrigante. Com uma mistura de doçura e criatividade, esses petiscos são um sucesso em festas temáticas e celebrações de Halloween, proporcionando um toque misterioso à mesa.</td>
+            <td><a href="https://www.tudogostoso.com.br/receita/174698-dedos-de-bruxa.html" target="_blank">AQUI!</a></td>
+          </tr>
+          <tr>
+            <th scope="row">Beijo do Vampiro</th>
+            <td><img src="imgs/vampiroDrink.png" alt=""></td>
+            <td>Este coquetel é caracterizado por sua coloração profundamente vermelha, assemelhando-se ao sangue. Decorações temáticas, como guarda-chuvas de cocktail em forma de morcegos ou cerejas vermelhas, adicionam um toque especial de drama.</td>
+            <td><a href="https://www.noticiasaominuto.com/lifestyle/2103685/beijo-do-vampiro-o-cocktail-perfeito-para-brindar-ao-halloween" target="_blank">AQUI!</a></td>
+          </tr>
+          <tr>
+            <th scope="row">Maça do Amor Envenenada</th>
+            <td><img src="imgs/envenenada.png" alt=""></td>
+            <td>Estas maçãs são revestidas com um caramelo preto intenso, criando uma aparência enigmática que evoca o misterioso mundo das bruxas e feitiçaria. Esta variação das maçãs caramelizadas oferece uma experiência única e surpreendente para aqueles que desejam um toque sombrio em sua sobremesa de Halloween.</td>
+            <td><a href="https://cozinharoman.com/2015/10/28/maca-envenenada-quero-dizer-caramelada/" target="_blank">AQUI!</a></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="contact-div">
+        <h3>Alguma dica ou sujestão? Nos mande uma mensagem!</h3>
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputName">Nome</label>
+              <input type="text" class="form-control" id="inputName" placeholder="Nome">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputEmail4">Email</label>
+              <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="messageArea">Mensagem</label>
+            <textarea class="form-control" id="messageArea" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
     </main>
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->

@@ -107,6 +107,11 @@ main img {
 tr {
   background-color: var(--purple);
 }
+/* 
+tr img {
+  max-width: 160px;
+  max-height: 200px;
+} */
 
 .contact-div {
   margin: 40px 0;
